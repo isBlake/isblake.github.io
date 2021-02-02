@@ -24,15 +24,15 @@
 <link rel="stylesheet" href="/css/app.css?v=0.2.5">
 
   
-  <meta name="keywords" content="随笔" />
+  <meta name="keywords" content="Econometrics" />
 
 
-<link rel="canonical" href="https://isblake.github.io/2021/01/25/Reading01/">
+<link rel="canonical" href="https://isblake.github.io/2021/02/02/CRM1/">
 
 
 
   <title>
-读了本书《血疫》（一） |
+CRM; Classical Regression Model |
 POSYECHO = 一切有迹可循 = 我必如雪崩再来</title>
 <meta name="generator" content="Hexo 5.3.0"></head>
 <body itemscope itemtype="http://schema.org/WebPage">
@@ -60,23 +60,23 @@ POSYECHO = 一切有迹可循 = 我必如雪崩再来</title>
         <div id="brand">
           <div class="pjax">
           
-  <h1 itemprop="name headline">读了本书《血疫》（一）
+  <h1 itemprop="name headline">CRM; Classical Regression Model
   </h1>
   
 <div class="meta">
-  <span class="item" title="Created: 2021-01-25 00:00:00">
+  <span class="item" title="Created: 2021-02-02 19:42:03">
     <span class="icon">
       <i class="ic i-calendar"></i>
     </span>
     <span class="text">Posted on</span>
-    <time itemprop="dateCreated datePublished" datetime="2021-01-25T00:00:00+09:00">2021-01-25</time>
+    <time itemprop="dateCreated datePublished" datetime="2021-02-02T19:42:03+09:00">2021-02-02</time>
   </span>
   <span class="item" title="Symbols count in article">
     <span class="icon">
       <i class="ic i-pen"></i>
     </span>
     <span class="text">Symbols count in article</span>
-    <span>1.2k</span>
+    <span>1.6k</span>
     <span class="text">words</span>
   </span>
   <span class="item" title="Reading time">
@@ -117,12 +117,12 @@ POSYECHO = 一切有迹可循 = 我必如雪崩再来</title>
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1gipeyvx1d4j20zk0m8hdt.jpg"></li>
-          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1gipeyonbf9j20zk0m8e81.jpg"></li>
-          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1giclflwv2aj20zk0m84qp.jpg"></li>
-          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1giclhfehz7j20zk0m8u0x.jpg"></li>
-          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1gipevo9j1jj20zk0m8e81.jpg"></li>
-          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1giciuja1j1j20zk0m8kjl.jpg"></li>
+          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1gipeubcbajj20zk0m8h1h.jpg"></li>
+          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1gipewr8iypj20zk0m8b29.jpg"></li>
+          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1gipeyhsblkj20zk0m81kx.jpg"></li>
+          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1gipesx5fdwj20zk0m81kx.jpg"></li>
+          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1gicitspjpbj20zk0m81ky.jpg"></li>
+          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1gicit31ffoj20zk0m8naf.jpg"></li>
         </ul>
       </div>
     </header>
@@ -151,7 +151,7 @@ POSYECHO = 一切有迹可循 = 我必如雪崩再来</title>
 </div>
 
     <article itemscope itemtype="http://schema.org/Article" class="post block" lang="zh-CN en">
-  <link itemprop="mainEntityOfPage" href="https://isblake.github.io/2021/01/25/Reading01/">
+  <link itemprop="mainEntityOfPage" href="https://isblake.github.io/2021/02/02/CRM1/">
 
   <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="image" content="/images/avatar.jpg">
@@ -166,16 +166,46 @@ POSYECHO = 一切有迹可循 = 我必如雪崩再来</title>
   <div class="body md" itemprop="articleBody">
     
 
-    <p><mark>一</mark></p>
-<p><span class="grey">“HIV 闯入人类世界会是猴类交易的结果吗？艾滋病来自维多利亚湖上的某个岛屿吗？某个高危之岛？没有人知道。当我们开始探查艾滋病和马尔堡病毒的起源时，光线总会渐渐黯淡，事实变得模糊不清，但你能感觉到隐藏的联系。两种病毒似乎都符合某种模式。”</span></p>
-<p>疫情爆发已经一年了，和许多人一样，随着疫情的发展，我的心境也发生了许多变化，各种困惑接连出现。一开始我将其视为一场公共卫生事件，一如艾滋病、埃博拉、中东呼吸综合征…… 这些平时被视而不见的名词，现在重新出现在视野中。</p>
-<p>或许，在瘟疫面前，人类总有一些共同的经验可循。于是去年二月我看了《血疫》，看到了一些熟悉的场景。比如关于源头，无论是 HIV，还是马尔堡病毒，其源头都指向了 1960 年代兴起于非洲的动物交易，尤其是用于医学研究的猴类交易；比如关于恐惧，一位出现了感染症状的护士担心去欧洲读书受到影响，扔下工作去办理出国许可证，又辗转多家医院求医，与 37 个人有过面对面接触。她的行踪暴露后，直接导致了苏丹邦巴地区的全面封锁。</p>
-<p>当然，很快就看到了政治。反向封锁 —— 即切断与外界的联系、禁止陌生人进入 —— 几乎是应对疫情的最原始的办法，而这一过程又总是伴随着暴力和信息封锁。在邦巴地区，企图闯关者遭到射杀，无线电联络也被切断，当世卫组织的工作人员费劲千辛万苦进入这一地区的时候，当地总督泪眼婆娑地抱怨物资不足，“我们甚至没有啤酒。”</p>
-<p>在没有疫苗和药物的情况下，物理隔离是应对瘟疫的唯一有效方法，但隔离也是一把双刃剑，在一个本身不平等现象十分普遍的社会中，隔离必然会滋生歧视、暴力和腐败，会导致稀缺资源分配的不平等进一步加剧。这一连串的反向效应，在 2014 年《纽约时报》对非洲埃博拉疫情所做的特别报道中，有了更为清晰的呈现。在利比里亚，看守警戒线的士兵会根据一个人的外表、经济情况甚至性别来决定收费的高低；因为暴力和哄抢物资所造成的人群聚集，反而加剧了疫情的蔓延；被隔离的人感受到的是奴役而不是保护，因为他们从未参与过任何一种决策；甚至连借口看起来也那么熟悉：利比里亚的信息部长面对外界对隔离的质疑时说，我们不是埃博拉方面的专家，我们以前从未和这类事情打过交道，但我们对本国民众的了解，多过我们对这种疾病的了解。</p>
-<p>这些描述回应着我对封城和隔离所感受到的不安，这种不安发自本能，与往日接受到的集体主义教育进行着拉锯战。但具体到《血疫》这本书，它最精彩的地方，是对病毒本身的洞悉，病毒和宿主之间的恩恩怨怨，以及当我们转换位置、从大自然的视角看待病毒时，它所承载的东西。<span class="grey">“它体现出你只有在大自然中才能见到的毒辣，这种毒辣可怕得甚至到了拥有美感的境地”；“从某种程度上说，瘟疫是地球正在开启的对人类的免疫反应，地球的免疫系统察觉了人类的活动，开始发挥作用，大自然在试图除掉人类这种寄生生物的感染。”</span></p>
+    <p>今后，我将由易到难简单总结分析一下我在学习计量经济时的思维框架。（后期有时间的话可能会对毕业研究相关内容进行概括？）<br>
+ok，为了节省时间，最初的一些基础性内容，像统计学基础等等我就不做整理了。</p>
+<p>那… 就先从回归模型开始吧。</p>
+<p>—————————————————————————————————————————————</p>
+<p>1.1 关于经典回归模型</p>
+<p>如果我们的目的只是对数据进行直线拟合，那么机械地应用最小二乘法对 X 和 Y 进行拟合即可。 然而，我们的目的并不限于此，我们还需要知道估计值（a，b）和未知参数（α，β）之间的误差有多大。 扰动项的性质是什么？ 为了对这些问题得出一定的结论，我将通过总结整理、分析研究所学内容并在此基础上验证经济模型。 为了做到这一点，首先需要对 X 和 Y 的决定机制做出一定的假设。 我们即将做出的假设是用回归进行统计分析的起点。</p>
+<p>首先，我们把 Y 和 X 的关系写成：Y=α+βX+ε</p>
+<p>让我们假设这种关系满足以下 4-5 个假设条件<br>
+　<span class="grey">假设 1：X 是非随机的</span><br>
+　<span class="grey">假设 2：干扰项的期望值为零（E (ε)=0）</span><br>
+　<span class="grey">假设 3：干扰项的方差是恒定的 (Var (ε) = σ² ) (同方差性)</span><br>
+　<span class="grey">假设 4：干扰项之间互不相关（Cov (εi, εj)=0） (独立性)</span><br>
+　<span class="grey">假设 5：ε 遵循正态分布 (正規性)</span></p>
+<p>下面我来简单解释一下假设 1-5 的含义。</p>
+<p><mark>假设 1（X 是非随机的）</mark><br>
+　该假设意味着解释变量（X）的值是由研究者预先设定的。例如，如果研究者向消费者提供预先确定的金钱（收入）并通过观察每个人的消费情况来收集数据，那么该假设是成立的。 虽然这种假设在实际经济数据中不太可能出现，但在这种假设下很容易得出估计函数的统计特性。有人可能会认为从这种不切实际的假设中得出的估计函数的特性在实践中是无用的，但即使在 X 是随机的情况下，根据假设 1 得出的结果几乎总是成立的。</p>
+<p><mark>假设 2（干扰项的预期值为 0）</mark><br>
+　如果我们认为消费函数的干扰项代表了除收入以外影响消费的所有因素的总和，那么它的预期值可能会取一个非零值。<br>
+在这种情况下，E (ε)=c (≠0)<br>
+ 但如果我们改写 ε=c+ε’，<br>
+那么 E (ε’)=0，<br>
+模型就变成了：</p>
+<pre><code>  Y = α+βX+ε = α+βX+c+ε’ = α’+βX+ε’（其中α’= α+c）
+</code></pre>
+<p>该 ε’的期望值将始终为 0。<br>
+因此，假设干扰项的预期值为 0，根本不会改变模型的性质。</p>
+<p><mark>假设 3 同方差性（Homoskedasticity）</mark><br>
+　这个假设意味着无论 X 的值是多少，Y 在 α+βX 附近的方差都是不变的。在消费函数的例子中，意味着收入为 200 万 rmb 和 2000 万 rmb 的两个家庭的消费方差是相同的。 当然，在现实中，消费的方差会随着收入的增加而增加，所以这个假设很可能不成立。</p>
+<p><mark>假设 4 独立性</mark><br>
+　这一假设意味着，在截面数据的情况下，影响第 i 个家庭和第 j 个家庭消费的除收入以外的因素是相互独立的。例如，在下述情况下，该假设不成立：<br>
+　两户人家的孩子是朋友，两个家庭一起开 X’mas party<br>
+　在这种情况下，两个干扰项之间呈正相关。此外，在时间序列数据的情况下，假设某一年发生了对消费的负冲击（比如对未来收入的长期悲观预期）这种影响不仅会延续到当年的消费中，也会延续到未来的消费中。在这种情况下，干扰项之间也会呈正自相关。</p>
+<p><mark>假设 5 规范性</mark><br>
+　这个假设意味着干扰项的分布遵循正态分布。假设不成立的情况，例如被解释变量只取整数值，如 X 是学习时间，Y 是考试分数。在这种情况下，干扰项是离散的，不是正态分布。 然而，在很多情况下，可以认为干扰项近似遵循正态分布。另外，在干扰项代表了收入以外的无数因素影响的总和的情况下（比如消费函数），根据中心极限定理，可以认为干扰项遵循正态分布。</p>
+<p>假设 1-4 成立的模型称为经典（双变量）回归模型（CRM；Classical Regression Model）<br>
+如果在假设 1-4 的基础上加入假设 5，则该模型称为经典正态回归模型（CNRM; Classical Normal Regression Model）</p>
+<p>* 最后简单做了张 CRM 示意图（但是不会插图 hhhhhh）</p>
 
       <div class="tags">
-          <a href="/tags/%E9%9A%8F%E7%AC%94/" rel="tag"><i class="ic i-tag"></i> 随笔</a>
+          <a href="/tags/Econometrics/" rel="tag"><i class="ic i-tag"></i> Econometrics</a>
       </div>
   </div>
 
@@ -187,7 +217,7 @@ POSYECHO = 一切有迹可循 = 我必如雪崩再来</title>
       <i class="ic i-calendar-check"></i>
     </span>
     <span class="text">Edited on</span>
-    <time title="Modified: 2021-01-26 17:54:55" itemprop="dateModified" datetime="2021-01-26T17:54:55+09:00">2021-01-26</time>
+    <time title="Modified: 2021-02-02 19:50:55" itemprop="dateModified" datetime="2021-02-02T19:50:55+09:00">2021-02-02</time>
   </span>
 </div>
 
@@ -200,7 +230,7 @@ POSYECHO = 一切有迹可循 = 我必如雪崩再来</title>
   </li>
   <li class="link">
     <strong>Post link: </strong>
-    <a href="https://isblake.github.io/2021/01/25/Reading01/" title="读了本书《血疫》（一）">https://isblake.github.io/2021/01/25/Reading01/</a>
+    <a href="https://isblake.github.io/2021/02/02/CRM1/" title="CRM; Classical Regression Model">https://isblake.github.io/2021/02/02/CRM1/</a>
   </li>
   <li class="license">
     <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLnpo"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</span> unless stating additionally.
@@ -219,22 +249,14 @@ POSYECHO = 一切有迹可循 = 我必如雪崩再来</title>
     <div class="item left">
       
 
-  <a href="/2021/01/23/hello-world/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva3.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1gicitzannuj20zk0m8b29.jpg" title="Hello World">
+  <a href="/2021/01/31/Paris/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva3.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1gicitspjpbj20zk0m81ky.jpg" title="Paris, a slightly drunken city">
   <span class="type">Previous Post</span>
   <span class="category"><i class="ic i-flag"></i> </span>
-  <h3>Hello World</h3>
+  <h3>Paris, a slightly drunken city</h3>
   </a>
 
     </div>
     <div class="item right">
-      
-
-  <a href="/2021/01/26/Reading02/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;tva3.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1giclgrvbd6j20zk0m8qv5.jpg" title="读了本书《语言与沉默》（二）">
-  <span class="type">Next Post</span>
-  <span class="category"><i class="ic i-flag"></i> </span>
-  <h3>读了本书《语言与沉默》（二）</h3>
-  </a>
-
     </div>
 </div>
 
@@ -337,12 +359,10 @@ POSYECHO = 一切有迹可循 = 我必如雪崩再来</title>
 
   <ul id="quick">
     <li class="prev pjax">
-        <a href="/2021/01/23/hello-world/" rel="prev" title="Previous Post"><i class="ic i-chevron-left"></i></a>
     </li>
     <li class="up"><i class="ic i-arrow-up"></i></li>
     <li class="down"><i class="ic i-arrow-down"></i></li>
     <li class="next pjax">
-        <a href="/2021/01/26/Reading02/" rel="next" title="Next Post"><i class="ic i-chevron-right"></i></a>
     </li>
     <li class="percent"></li>
   </ul>
@@ -360,15 +380,6 @@ POSYECHO = 一切有迹可循 = 我必如雪崩再来</title>
 <div class="rpost pjax">
   <h2>Random Posts</h2>
   <ul>
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
-    <span><a href="/2021/01/26/Reading02/" title="读了本书《语言与沉默》（二）">读了本书《语言与沉默》（二）</a></span>
-  </li>
-
       
   <li class="item">
     
@@ -402,7 +413,7 @@ POSYECHO = 一切有迹可循 = 我必如雪崩再来</title>
 <div class="breadcrumb">
 </div>
 
-    <span><a href="/2021/02/02/CRM1/" title="CRM; Classical Regression Model">CRM; Classical Regression Model</a></span>
+    <span><a href="/2021/01/31/Paris/" title="Paris, a slightly drunken city">Paris, a slightly drunken city</a></span>
   </li>
 
       
@@ -411,7 +422,16 @@ POSYECHO = 一切有迹可循 = 我必如雪崩再来</title>
 <div class="breadcrumb">
 </div>
 
-    <span><a href="/2021/01/31/Paris/" title="Paris, a slightly drunken city">Paris, a slightly drunken city</a></span>
+    <span><a href="/2021/01/26/Reading02/" title="读了本书《语言与沉默》（二）">读了本书《语言与沉默》（二）</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2021/02/02/CRM1/" title="CRM; Classical Regression Model">CRM; Classical Regression Model</a></span>
   </li>
 
   </ul>
@@ -450,7 +470,7 @@ POSYECHO = 一切有迹可循 = 我必如雪崩再来</title>
   </div>
 <script data-config type="text/javascript">
   var LOCAL = {
-    path: '2021/01/25/Reading01/',
+    path: '2021/02/02/CRM1/',
     favicon: {
       show: "（●´3｀●）Goooood",
       hide: "(´Д｀)Booooom"
